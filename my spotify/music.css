@@ -1,0 +1,175 @@
+body {
+
+ 
+
+  background-image: linear-gradient(
+
+    rgb(59,88,93),
+
+    rgb(29,40,42)
+
+    );
+
+    height: 100vh;
+
+    color: rgb(255, 255, 255);
+
+    font-family: sans-serif;
+
+     display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+ 
+
+button {
+
+  background-color: inherit;
+
+  color: inherit;
+
+  border: none;
+
+}
+
+ 
+
+img {
+
+  position: relative;
+
+}
+
+#names-like {
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 2em 0 1em 0;
+
+ 
+
+}
+
+#button-container {
+
+  display: flex;
+
+  flex-direction: row;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+}
+
+ 
+
+.button {
+
+  font-size: 1.5em;
+
+}
+
+.button-nav {
+
+  font-size: 2.5em;
+
+}
+
+ 
+
+.button-player {
+
+  font-size: 4em;
+
+}
+
+ 
+
+#capa1 {
+
+  width: 400px;
+
+}
+
+ 
+
+#playlist-susan {
+
+display: flex;
+
+flex-direction: row;
+
+justify-content: center;
+
+margin: 0.5em 0em 3.5em 0em;
+
+}
+
+ 
+
+#nome-som {
+
+font-size: 1.5em;
+
+font-weight: bold;
+
+ 
+
+}
+
+.claridade {
+
+color: rgb(139, 153, 156);
+
+}
+
+ 
+
+.bi-heart-fill {
+
+color: rgb(139, 153, 156 );
+
+}
+
+ 
+
+#barra-progresso {
+
+background-color: rgb(139, 153, 156);
+
+height: 3px;
+
+width: 100%;
+
+margin-bottom: 0.8em;
+
+border-radius: 15px;
+
+}
+
+ 
+
+#progresso {
+
+background-color: white;
+
+height: inherit;
+
+width: 50%;
+
+border-radius: inherit;
+
+ 
+
+}
