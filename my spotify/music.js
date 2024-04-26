@@ -30,7 +30,7 @@ const charlie = {
 const ferrugem = {
     musica: "Ela",
     file : 'ferrugem',
-    banda: "Ferrugem"
+    banda: "Sorriso Maroto,Ferrugem"
     
 };
 
