@@ -44,6 +44,8 @@ img {
 
 }
 
+ 
+
 #names-like {
 
     display: flex;
@@ -77,6 +79,8 @@ img {
 .button {
 
   font-size: 1.5em;
+
+  cursor: pointer;
 
 }
 
@@ -152,7 +156,7 @@ height: 3px;
 
 width: 100%;
 
-margin-bottom: 0.8em;
+width: var(--progress);
 
 border-radius: 15px;
 
@@ -162,14 +166,35 @@ border-radius: 15px;
 
 #progresso {
 
+--progress: 0%;
+
 background-color: white;
 
 height: inherit;
 
-width: 50%;
+width: var(--progress);
 
 border-radius: inherit;
 
  
+
+}
+
+ 
+
+#progresso-container{
+
+  padding-bottom: 1em;
+
+  cursor: pointer;
+
+ 
+
+}
+
+ 
+
+.button-aletorio {
+  color: rgb(19, 161, 19);
 
 }
